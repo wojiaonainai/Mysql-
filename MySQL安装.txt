@@ -1,0 +1,12 @@
+第一步：去官网下载安装
+第二步：先解压
+在path（环境变量里面）加上mysql路径（/bin）。
+第三步：进入命令指示符（cmd），
+输入mysqld --initialize-insecure --user=mysql，
+再输入mysqld -install，
+出现Service successfully installed.表示配置完成
+启动数据库net start mysql，
+输入mysql -u root -p，不用输入密码直接回车
+出现mysql>表示配置完成
+输入alter user user() identified by "密码";
+输入net stop mysql关闭数据库
